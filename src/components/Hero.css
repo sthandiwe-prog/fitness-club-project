@@ -1,3 +1,9 @@
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
 .Hero {
   background: rgb(77, 79, 84);
   display: flex;
@@ -26,11 +32,6 @@
   font-size: 16px;
   font-weight: normal;
   text-transform: none;
-}
-.Hero .left-header-content .stroke-text {
-  color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 .Hero .left-header-content .figures {
   display: flex;
