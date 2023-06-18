@@ -1,0 +1,175 @@
+.Hero {
+  background: rgb(77, 79, 84);
+  display: flex;
+  justify-content: space-between;
+}
+.Hero .left-header-content {
+  padding: 25px 25px;
+  flex: 3;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.Hero .left-header-content .header-text {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  gap: 25px;
+  margin: 19px 0;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 1.1;
+  color: rgb(255, 255, 255);
+  text-overflow: inherit;
+}
+.Hero .left-header-content .header-text div:nth-child(3) {
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+}
+.Hero .left-header-content .stroke-text {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+.Hero .left-header-content .figures {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.Hero .left-header-content .figures div {
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.Hero .left-header-content .figures div span:nth-child(1) {
+  font-size: 32px;
+}
+.Hero .left-header-content .figures div span:nth-child(2) {
+  font-size: 16px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.Hero .left-header-content .header-buttons {
+  padding: 15px 0;
+}
+.Hero .left-header-content .header-buttons button:nth-child(1) {
+  padding: 10px 25px;
+  margin-right: 20px;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 167, 2);
+  border: 1px solid rgb(255, 167, 2);
+}
+.Hero .left-header-content .header-buttons button:nth-child(2) {
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 167, 2);
+  background: rgb(77, 79, 84);
+}
+.Hero .moto {
+  margin-top: 72px;
+  padding: 20px 15px;
+  background: rgb(57, 61, 66);
+  border-radius: 50px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Hero .moto div {
+  background: rgb(255, 167, 2);
+  padding: 15px 10px;
+  border-radius: 50px;
+  position: absolute;
+  height: 19px;
+  width: 56px;
+  left: 9px;
+  z-index: 1;
+}
+.Hero .moto span {
+  position: relative;
+  z-index: 2;
+}
+.Hero .right-header-content {
+  background: rgb(255, 167, 2);
+  position: relative;
+  flex: 1;
+}
+.Hero .right-header-content .header-button {
+  padding: 15px 20px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  color: black;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+}
+.Hero .right-header-content .heart-rate {
+  background: rgb(77, 79, 84);
+  border-radius: 5px;
+  border: 1px solid rgb(77, 79, 84);
+  padding: 20px 15px;
+  width: 110px;
+  height: 110px;
+  position: absolute;
+  top: 120px;
+  right: 75px;
+}
+.Hero .right-header-content .heart-rate img {
+  width: 35px;
+}
+.Hero .right-header-content .heart-rate div:nth-child(2) {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  line-height: 1.5;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.Hero .right-header-content .heart-rate span:nth-child(1) {
+  opacity: 0.6;
+}
+.Hero .right-header-content .heart-rate span:nth-child(2) {
+  font-size: 28px;
+}
+.Hero .right-header-content .gym-logo img:nth-child(1) {
+  width: 380px;
+  position: absolute;
+  z-index: 2;
+  left: -190px;
+  top: 200px;
+}
+.Hero .right-header-content .gym-logo img:nth-child(2) {
+  width: 250px;
+  position: absolute;
+  top: 80px;
+  right: 310px;
+  z-index: 1;
+}
+.Hero .right-header-content .calories-content {
+  background: rgb(101, 101, 101);
+  border-radius: 5px;
+  padding: 20px 30px;
+  width: 60px;
+  height: 110px;
+  gap: 20px;
+  position: relative;
+  right: 300px;
+  top: 550px;
+}
+.Hero .right-header-content .calories-content div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+.Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(1) {
+  opacity: 0.6;
+  text-transform: capitalize;
+}
+.Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}/*# sourceMappingURL=Hero.css.map */
