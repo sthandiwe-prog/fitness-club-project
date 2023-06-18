@@ -1,9 +1,9 @@
 import React from "react";
 import Navigation from "./Navigation";
 import "./Hero.css";
-import Heart from "./assets/heart.png";
-import Heros from "./assets/hero_image.png";
-import Hero_back from "./assets/hero_image_back.png";
+import Heart from "../assets/heart.png";
+import Heros from "../assets/hero_image.png";
+import Hero_back from "../assets/hero_image_back.png";
 
 export default function Hero() {
   return (
