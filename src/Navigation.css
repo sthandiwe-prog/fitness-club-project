@@ -1,0 +1,20 @@
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.Navigation ul {
+  list-style: none;
+  display: flex;
+  color: rgb(255, 255, 255);
+  gap: 25px;
+}
+.Navigation li {
+  cursor: pointer;
+}
+.Navigation li:hover {
+  color: rgb(255, 167, 2);
+}
+.Navigation .logo {
+  width: 180px;
+  height: auto;
+}/*# sourceMappingURL=Navigation.css.map */
