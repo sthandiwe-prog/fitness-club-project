@@ -15,12 +15,13 @@ export default function Programs() {
         {programsData.map((program) => (
           <div className="category">
             {program.image}
-            <span>{program.heading}</span>
+            <span className="program-heading">{program.heading}</span>
             <span>{program.details}</span>
             <div className="join-now">
               {" "}
+              <span>Join now</span>
               <span>
-                Join now <img src={rightArrow} alt="right arrow" />
+                <img src={rightArrow} className="arrow" alt="right arrow" />
               </span>
             </div>
           </div>

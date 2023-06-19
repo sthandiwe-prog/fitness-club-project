@@ -1,0 +1,92 @@
+$primary-color: rgb(77, 79, 84);
+$primary-color-light: rgb(101, 101, 101);
+$primary-color-heavy: rgb(57, 61, 66);
+$secondary-color: rgb(255, 167, 2);
+$tertiary-color: rgb(255, 255, 255);
+
+.Reasons {
+  background: $primary-color;
+  color: $tertiary-color;
+  padding: 0 32px;
+  display: flex;
+  grid-template: 30px;
+  img {
+    object-fit: cover;
+  }
+  .image1 {
+    width: 192px;
+    height: 448px;
+    grid-row: 1/3;
+  }
+  .image2 {
+    width: auto;
+    height: 256px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+  }
+  .image3 {
+    width: 219px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .image4 {
+    width: 163px;
+    grid-column: 3/4;
+    grid-row: 2/3;
+  }
+  .left-r {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    grid-auto-rows: 1fr;
+  }
+  .right-r {
+    flex: 1;
+  }
+  .details {
+    .heading {
+      margin: 0 0 0 17px;
+      font-size: 15px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $secondary-color;
+    }
+    .tick {
+      width: 35px;
+      margin: 6px 0;
+    }
+    div:nth-child(2) {
+      font-size: 50px;
+      margin: 5px 0 0 17px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    div:nth-child(3) {
+      display: flex;
+      flex-direction: column;
+      margin: 15px;
+      gap: 15px;
+      span {
+        display: flex;
+        gap: 16px;
+        p {
+          margin-top: 4px;
+          font-size: 15px;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+      }
+    }
+    div:nth-child(4) {
+      font-weight: bold;
+      text-transform: uppercase;
+      opacity: 0.6;
+      margin: 0 0 10px 15px;
+    }
+    div:nth-child(5) {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}

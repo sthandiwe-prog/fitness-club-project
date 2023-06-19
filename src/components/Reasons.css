@@ -1,0 +1,85 @@
+.Reasons {
+  background: rgb(77, 79, 84);
+  color: rgb(255, 255, 255);
+  padding: 0 32px;
+  display: flex;
+  grid-template: 30px;
+}
+.Reasons img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Reasons .image1 {
+  width: 192px;
+  height: 448px;
+  grid-row: 1/3;
+}
+.Reasons .image2 {
+  width: auto;
+  height: 256px;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+.Reasons .image3 {
+  width: 219px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.Reasons .image4 {
+  width: 163px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.Reasons .left-r {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  grid-auto-rows: 1fr;
+}
+.Reasons .right-r {
+  flex: 1;
+}
+.Reasons .details .heading {
+  margin: 0 0 0 17px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(255, 167, 2);
+}
+.Reasons .details .tick {
+  width: 35px;
+  margin: 6px 0;
+}
+.Reasons .details div:nth-child(2) {
+  font-size: 50px;
+  margin: 5px 0 0 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Reasons .details div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  gap: 15px;
+}
+.Reasons .details div:nth-child(3) span {
+  display: flex;
+  gap: 16px;
+}
+.Reasons .details div:nth-child(3) span p {
+  margin-top: 4px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.Reasons .details div:nth-child(4) {
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin: 0 0 10px 15px;
+}
+.Reasons .details div:nth-child(5) {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=Reasons.css.map */

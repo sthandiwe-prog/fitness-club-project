@@ -27,18 +27,32 @@ $tertiary-color: rgb(255, 255, 255);
   }
 
   .programs-content {
-    margin-top: 90px;
+    margin-top: 60px;
     display: flex;
     flex-direction: row;
     gap: 30px;
 
     .category {
+      fill: $tertiary-color;
       display: flex;
       flex-direction: column;
       gap: 20px;
       border: 1px solid $primary-color-light;
-      padding: 40px;
+      padding: 41px;
       background: $primary-color-light;
+      .program-heading {
+        font-weight: bold;
+      }
+    }
+    .join-now {
+      display: flex;
+      font-size: 16px;
+      gap: 50px;
+      font-weight: bold;
+      .arrow {
+        width: 20px;
+        margin-top: 4px;
+      }
     }
   }
 }
