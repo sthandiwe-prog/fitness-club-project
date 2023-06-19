@@ -9,7 +9,7 @@ $tertiary-color: rgb(255, 255, 255);
   color: $tertiary-color;
   padding: 0 32px;
   display: flex;
-  grid-template: 30px;
+  gap: 32px;
   img {
     object-fit: cover;
   }
