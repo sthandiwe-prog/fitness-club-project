@@ -1,0 +1,54 @@
+.Plans {
+  background: rgb(77, 79, 84);
+  color: rgb(255, 255, 255);
+}
+.Plans .heading {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  font-style: italic;
+}
+.Plans .plans-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.Plans .plans-details .plans-content {
+  background: rgb(101, 101, 101);
+  border: 1px solid rgb(101, 101, 101);
+  line-height: 1.5;
+  margin: 0 20px;
+  padding: 40px 30px 20px 30px;
+}
+.Plans .plans-details .plans-content div:nth-child(1) {
+  fill: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.Plans .plans-details .plans-content div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Plans .plans-details .plans-content div:nth-child(2) span:nth-child(1) {
+  font-size: 22px;
+  font-weight: bold;
+}
+.Plans .plans-details .plans-content div:nth-child(2) span:nth-child(2) {
+  font-size: 50px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+.Plans .plans-details .plans-content .tick {
+  width: 20px;
+  margin: 15px 15px 15px 0;
+}
+.Plans .plans-details .btn {
+  background: rgb(255, 255, 255);
+  margin-top: 15px;
+  color: black;
+  font-weight: bold;
+}/*# sourceMappingURL=Plans.css.map */
