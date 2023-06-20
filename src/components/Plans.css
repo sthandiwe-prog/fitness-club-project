@@ -51,4 +51,7 @@
   margin-top: 15px;
   color: black;
   font-weight: bold;
+}
+.Plans .plans-details .btn:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=Plans.css.map */

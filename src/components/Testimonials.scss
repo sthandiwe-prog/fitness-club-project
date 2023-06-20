@@ -1,0 +1,95 @@
+$primary-color: rgb(77, 79, 84);
+$primary-color-light: rgb(101, 101, 101);
+$primary-color-heavy: rgb(57, 61, 66);
+$secondary-color: rgb(255, 167, 2);
+$tertiary-color: rgb(255, 255, 255);
+
+.Testimonials {
+  background: $primary-color;
+  color: white;
+  padding: 70px 37px;
+  display: flex;
+  .left-t {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .testimonials-content {
+      line-height: 1.5;
+      span:nth-child(1) {
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: bold;
+        color: $secondary-color;
+        display: flex;
+        flex-direction: column;
+      }
+      span:nth-child(2),
+      span:nth-child(3) {
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bold;
+        display: flex;
+        font-style: italic;
+        line-height: 1.5;
+        flex-direction: column;
+      }
+      span:nth-child(4) {
+        display: flex;
+        text-transform: capitalize;
+        line-height: 2.5;
+      }
+      span:nth-child(5) {
+        display: flex;
+        flex-direction: row;
+        gap: 6px;
+        color: $secondary-color;
+
+        .status {
+          color: white;
+          font-weight: normal;
+          font-size: 14px;
+          margin-top: 2px;
+        }
+      }
+    }
+  }
+  .right-t {
+    position: relative;
+    flex: 1;
+    img {
+      position: absolute;
+      height: 260px;
+      width: 225px;
+      right: 130px;
+      top: 60px;
+      z-index: 2;
+    }
+    .arrows {
+      div:nth-child(1) {
+        position: absolute;
+        border: 2px solid $secondary-color;
+        top: -220px;
+        right: -350px;
+        width: 230px;
+        height: 260px;
+        z-index: 1;
+      }
+      div:nth-child(2) {
+        position: absolute;
+        background: $secondary-color;
+        bottom: -30px;
+        left: 225px;
+        width: 230px;
+        height: 260px;
+        z-index: 1;
+      }
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      bottom: -10px;
+      left: 70px;
+      font-size: 30px;
+      gap: 20px;
+    }
+  }
+}

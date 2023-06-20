@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Reasons from "./components/Reasons";
 import Programs from "./components/Programs";
 import Plans from "./components/Plans";
+import Testimonials from "./components/Testimonials";
 import "./App.css";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Programs />
       <Reasons />
       <Plans />
+      <Testimonials />
     </div>
   );
 }
