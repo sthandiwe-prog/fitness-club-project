@@ -57,6 +57,9 @@ $tertiary-color: rgb(255, 255, 255);
       margin-top: 15px;
       color: black;
       font-weight: bold;
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 }

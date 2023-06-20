@@ -1,6 +1,7 @@
 import React from "react";
 import { plansData } from "../data/plansData";
-import tick from "../assets/tick.png";
+import whiteTick from "../assets/whiteTick.png";
+import rightArrow from "../assets/rightArrow.png";
 import "./Plans.css";
 export default function Plans() {
   return (
@@ -19,16 +20,20 @@ export default function Plans() {
               <span> ${plan.price} </span>
               <span className="features">
                 {" "}
-                <img src={tick} className="tick" alt="tick" />
+                <img src={whiteTick} className="tick" alt="tick" />
                 {plan.features[0]}{" "}
               </span>
               <span className="bigger-plan-set">
-                <img src={tick} className="tick" alt="tick" />
+                <img src={whiteTick} className="tick" alt="tick" />
                 {plan.features[1]}
               </span>
               <span>
-                <img src={tick} className="tick" alt="tick" />
+                <img src={whiteTick} className="tick" alt="tick" />
                 {plan.features[2]}
+              </span>
+              <span>
+                See more benefits{" "}
+                <img src={rightArrow} width="11px" alt="right arrow" />{" "}
               </span>
               <span>
                 {" "}
