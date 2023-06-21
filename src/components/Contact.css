@@ -3,7 +3,7 @@
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
-  padding: 35px;
+  padding: 50px;
 }
 .Contact .left-c {
   flex: 1;
@@ -14,7 +14,38 @@
   flex-direction: column;
   line-height: 1.2;
 }
-.Contact .right-c .form {
-  padding: 20px;
-  width: 380px;
+.Contact .left-c hr {
+  width: 150px;
+  border: 3px solid rgb(226, 147, 0);
+  margin-left: 5px;
+}
+.Contact .right-c {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.Contact .right-c form {
+  margin-top: 35px;
+  padding: 20px 39px;
+  background: rgb(101, 101, 101);
+}
+.Contact .right-c form .form {
+  outline: none;
+  border: none;
+  background: rgb(101, 101, 101);
+}
+.Contact .right-c form .form::-moz-placeholder {
+  color: rgb(175, 174, 174);
+  font-size: 20px;
+}
+.Contact .right-c form .form::placeholder {
+  color: rgb(175, 174, 174);
+  font-size: 20px;
+}
+.Contact .right-c button {
+  padding: 8px;
+  border: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  background: rgb(255, 167, 2);
 }/*# sourceMappingURL=Contact.css.map */

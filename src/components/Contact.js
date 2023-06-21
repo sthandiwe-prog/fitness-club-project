@@ -6,6 +6,7 @@ export default function Contact() {
     <div className="Contact">
       <div className="left-c">
         <span>
+          <hr />
           <span className="stroke-text">ready to</span> level up{" "}
         </span>
         <span>
@@ -14,7 +15,8 @@ export default function Contact() {
       </div>
       <div className="right-c">
         <form>
-          <input type="text" className="form" placeholder="Enter your email" />;
+          <input type="email" className="form" placeholder="Enter your email" />
+          <button>Join now</button>
         </form>
       </div>
     </div>
