@@ -85,4 +85,9 @@
   width: 230px;
   height: 260px;
   z-index: 1;
+}
+.Testimonials .right-t .arrows span:nth-child(3):hover,
+.Testimonials .right-t .arrows span:nth-child(4):hover {
+  cursor: pointer;
+  color: rgb(255, 167, 2);
 }/*# sourceMappingURL=Testimonials.css.map */

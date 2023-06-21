@@ -1,11 +1,29 @@
 import React, { useState } from "react";
-import leftArrow from "../assets/leftArrow.png";
-import rightArrow from "../assets/rightArrow.png";
+
 import "./Testimonials.css";
 import { testimonialsData } from "../data/testimonialsData";
 export default function Testimonials() {
   const [selected, setSelected] = useState(0);
   const testimonialLength = testimonialsData.length;
+  function leftArrow() {
+    if (selected === 0) {
+      setSelected(testimonialLength - 1);
+    } else {
+      setSelected(function previous(prev) {
+        return prev - 1;
+      });
+    }
+  }
+
+  function rightArrow() {
+    if (selected === testimonialLength - 1) {
+      setSelected(0);
+    } else {
+      setSelected(function foward(prev) {
+        return prev + 1;
+      });
+    }
+  }
   return (
     <div className="Testimonials">
       <div className="left-t">
@@ -30,10 +48,10 @@ export default function Testimonials() {
           <div></div>
           <span>
             {" "}
-            <i className="fa-solid fa-arrow-left"></i>
+            <i className="fa-solid fa-arrow-left" onClick={leftArrow}></i>
           </span>
           <span>
-            <i className="fa-solid fa-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right" onClick={rightArrow}></i>
           </span>
         </div>
       </div>
