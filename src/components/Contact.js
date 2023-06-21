@@ -1,0 +1,22 @@
+import React from "react";
+import "./Contact.css";
+
+export default function Contact() {
+  return (
+    <div className="Contact">
+      <div className="left-c">
+        <span>
+          <span className="stroke-text">ready to</span> level up{" "}
+        </span>
+        <span>
+          your body <span className="stroke-text">with us?</span>{" "}
+        </span>
+      </div>
+      <div className="right-c">
+        <form>
+          <input type="text" className="form" placeholder="Enter your email" />;
+        </form>
+      </div>
+    </div>
+  );
+}

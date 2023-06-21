@@ -1,0 +1,28 @@
+$primary-color: rgb(77, 79, 84);
+$primary-color-light: rgb(101, 101, 101);
+$primary-color-heavy: rgb(57, 61, 66);
+$secondary-color: rgb(255, 167, 2);
+$tertiary-color: rgb(255, 255, 255);
+
+.Contact {
+  background: $primary-color;
+  color: $tertiary-color;
+  display: flex;
+  flex-direction: row;
+  padding: 35px;
+  .left-c {
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+  .right-c {
+    .form {
+      padding: 20px;
+      width: 380px;
+    }
+  }
+}
