@@ -1,0 +1,33 @@
+$primary-color: rgb(77, 79, 84);
+$primary-color-light: rgb(101, 101, 101);
+$primary-color-heavy: rgb(57, 61, 66);
+$secondary-color: rgb(255, 167, 2);
+$tertiary-color: rgb(255, 255, 255);
+
+.Footers {
+  background: $primary-color;
+  color: $tertiary-color;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+  hr {
+    border: 2px solid $tertiary-color;
+    margin-bottom: 100px;
+  }
+  .footer-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    font-size: 38px;
+    .fa-brands:hover {
+      cursor: pointer;
+      color: $secondary-color;
+    }
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0;
+  }
+}

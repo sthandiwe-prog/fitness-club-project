@@ -1,0 +1,27 @@
+.Footers {
+  background: rgb(77, 79, 84);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 200px 0;
+}
+.Footers hr {
+  border: 2px solid rgb(255, 255, 255);
+  margin-bottom: 100px;
+}
+.Footers .footer-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  font-size: 38px;
+}
+.Footers .footer-details .fa-brands:hover {
+  cursor: pointer;
+  color: rgb(255, 167, 2);
+}
+.Footers .logo {
+  display: flex;
+  justify-content: center;
+  margin: 70px 0;
+}/*# sourceMappingURL=Footers.css.map */
