@@ -5,7 +5,7 @@ import rightArrow from "../assets/rightArrow.png";
 import "./Plans.css";
 export default function Plans() {
   return (
-    <div className="Plans">
+    <div className="Plans" id="plans">
       <div className="heading">
         <span className="stroke-text"> ready to start </span>
         <span> your journey now </span>

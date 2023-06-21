@@ -6,6 +6,7 @@ $tertiary-color: rgb(255, 255, 255);
   justify-content: space-between;
 
   ul {
+    padding: 25px;
     list-style: none;
     display: flex;
     color: $tertiary-color;
@@ -13,12 +14,17 @@ $tertiary-color: rgb(255, 255, 255);
   }
   li {
     cursor: pointer;
-    &:hover {
-      color: $secondary-color;
+    a {
+      text-decoration: none;
+      color: $tertiary-color;
+      &:hover {
+        color: $secondary-color;
+      }
     }
   }
 
   .logo {
+    padding: 25px 0;
     width: 180px;
     height: auto;
   }

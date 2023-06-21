@@ -39,19 +39,22 @@
 }
 .Plans .plans-details .plans-content div:nth-child(2) span:nth-child(2) {
   font-size: 50px;
-  margin: 20px 0;
+  margin: 5px 0;
   font-weight: bold;
+  color: rgb(255, 167, 2);
 }
 .Plans .plans-details .plans-content .tick {
   width: 20px;
   margin: 15px 15px 15px 0;
 }
 .Plans .plans-details .btn {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 167, 2);
   margin-top: 15px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: bold;
+  border-radius: 0;
 }
 .Plans .plans-details .btn:hover {
   cursor: pointer;
+  color: black;
 }/*# sourceMappingURL=Plans.css.map */

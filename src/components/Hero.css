@@ -10,11 +10,11 @@
   justify-content: space-between;
 }
 .Hero .left-header-content {
-  padding: 25px 25px;
   flex: 3;
   display: flex;
   gap: 20px;
   flex-direction: column;
+  padding-left: 40px;
 }
 .Hero .left-header-content .header-text {
   display: flex;
@@ -68,7 +68,7 @@
   background: rgb(77, 79, 84);
 }
 .Hero .moto {
-  margin-top: 72px;
+  margin-top: 100px;
   padding: 20px 15px;
   background: rgb(57, 61, 66);
   border-radius: 50px;
@@ -87,7 +87,7 @@
   border-radius: 50px;
   position: absolute;
   height: 19px;
-  width: 56px;
+  width: 75px;
   left: 9px;
   z-index: 1;
 }
@@ -115,7 +115,7 @@
   border: 1px solid rgb(77, 79, 84);
   padding: 20px 15px;
   width: 110px;
-  height: 110px;
+  height: 200px;
   position: absolute;
   top: 120px;
   right: 75px;
@@ -126,13 +126,14 @@
 .Hero .right-header-content .heart-rate div:nth-child(2) {
   color: rgb(255, 255, 255);
   margin-top: 10px;
-  line-height: 1.5;
-  font-size: 20px;
+  line-height: 1.2;
+  font-size: 18px;
   display: flex;
   flex-direction: column;
 }
 .Hero .right-header-content .heart-rate span:nth-child(1) {
   opacity: 0.6;
+  margin-bottom: 10px;
 }
 .Hero .right-header-content .heart-rate span:nth-child(2) {
   font-size: 28px;
@@ -155,7 +156,7 @@
   background: rgb(101, 101, 101);
   border-radius: 5px;
   padding: 20px 30px;
-  width: 110px;
+  width: 165px;
   height: 180px;
   gap: 20px;
   position: relative;
@@ -167,10 +168,19 @@
   flex-direction: column;
 }
 .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(1) {
-  opacity: 0.6;
+  opacity: 0.9;
   text-transform: capitalize;
 }
 .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) {
   color: rgb(255, 255, 255);
-  font-size: 30px;
+  font-size: 23px;
+  display: flex;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-top: 20px;
+  gap: 10px;
+}
+.Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) .fa-chart-simple {
+  font-size: 70px;
+  color: orange;
 }/*# sourceMappingURL=Hero.css.map */

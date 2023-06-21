@@ -43,8 +43,9 @@ $tertiary-color: rgb(255, 255, 255);
         }
         span:nth-child(2) {
           font-size: 50px;
-          margin: 20px 0;
+          margin: 5px 0;
           font-weight: bold;
+          color: $secondary-color;
         }
       }
       .tick {
@@ -53,12 +54,15 @@ $tertiary-color: rgb(255, 255, 255);
       }
     }
     .btn {
-      background: $tertiary-color;
+      background: $secondary-color;
       margin-top: 15px;
-      color: black;
+      color: $tertiary-color;
       font-weight: bold;
+      border-radius: 0;
+
       &:hover {
         cursor: pointer;
+        color: black;
       }
     }
   }

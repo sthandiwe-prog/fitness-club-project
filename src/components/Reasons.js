@@ -11,7 +11,7 @@ import "./Reasons.css";
 
 export default function Reasons() {
   return (
-    <div className="Reasons">
+    <div className="Reasons" id="reasons">
       <div className="left-r">
         {" "}
         <img src={image1} className="image1" alt="gymic-image1" />{" "}

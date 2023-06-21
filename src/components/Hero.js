@@ -7,7 +7,7 @@ import Hero_back from "../assets/hero_image_back.png";
 
 export default function Hero() {
   return (
-    <div className="Hero">
+    <div className="Hero" id="home">
       <div className="left-header-content">
         <Navigation />
         <div className="moto">
@@ -72,7 +72,10 @@ export default function Hero() {
               <span>
                 calories <br /> burned
               </span>
-              <span>220 kcal</span>
+              <span>
+                {" "}
+                <i class="fa-solid fa-chart-simple"></i> 220 kcal
+              </span>
             </div>
           </div>
         </div>

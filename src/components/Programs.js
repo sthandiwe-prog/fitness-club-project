@@ -5,7 +5,7 @@ import { programsData } from "../data/programsData";
 import "./Programs.css";
 export default function Programs() {
   return (
-    <div className="Programs">
+    <div className="Programs" id="programs">
       <div className="programs-headings">
         <span className="stroke-text">explore</span>
         <span>programs</span>

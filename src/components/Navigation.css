@@ -3,6 +3,7 @@
   justify-content: space-between;
 }
 .Navigation ul {
+  padding: 25px;
   list-style: none;
   display: flex;
   color: rgb(255, 255, 255);
@@ -11,10 +12,15 @@
 .Navigation li {
   cursor: pointer;
 }
-.Navigation li:hover {
+.Navigation li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.Navigation li a:hover {
   color: rgb(255, 167, 2);
 }
 .Navigation .logo {
+  padding: 25px 0;
   width: 180px;
   height: auto;
 }/*# sourceMappingURL=Navigation.css.map */
