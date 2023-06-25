@@ -95,6 +95,7 @@ $tertiary-color: rgb(255, 255, 255);
   .Reasons {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-bottom: 100px;
 
     .image1 {

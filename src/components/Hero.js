@@ -79,6 +79,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
+        <div className="the-best-ad">the best fitness club!</div>
       </div>
     </div>
   );

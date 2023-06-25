@@ -52,6 +52,7 @@
 @media (max-width: 800px) {
   .Programs .programs-headings {
     flex-direction: column;
+    align-items: center;
   }
   .Programs .programs-content {
     margin-top: 60px;

@@ -61,6 +61,7 @@ $tertiary-color: rgb(255, 255, 255);
   .Programs {
     .programs-headings {
       flex-direction: column;
+      align-items: center;
     }
 
     .programs-content {

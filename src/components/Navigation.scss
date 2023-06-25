@@ -28,4 +28,56 @@ $tertiary-color: rgb(255, 255, 255);
     width: 180px;
     height: auto;
   }
+
+  .fa-bars {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Navigation {
+    margin-bottom: 100px;
+    .fa-bars {
+      display: flex;
+      &:hover {
+        color: $secondary-color;
+        cursor: pointer;
+      }
+    }
+
+    .logo {
+      width: 150px;
+      position: absolute;
+      top: -10px;
+      padding-left: 30px;
+    }
+
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      gap: 15px;
+      width: 100%;
+      display: none;
+      margin-top: 70px;
+      li {
+        text-align: center;
+        padding: 9px 0;
+        &:hover {
+          background: rgba(211, 211, 211, 0.445);
+        }
+        a:hover {
+          color: white;
+        }
+      }
+    }
+
+    ul.show {
+      display: flex;
+    }
+  }
 }

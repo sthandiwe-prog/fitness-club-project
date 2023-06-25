@@ -99,6 +99,9 @@
   position: relative;
   flex: 1;
 }
+.Hero .right-header-content .the-best-ad {
+  display: none;
+}
 .Hero .right-header-content .header-button {
   padding: 15px 20px;
   background: rgb(255, 255, 255);
@@ -189,8 +192,9 @@
     flex-direction: column;
   }
   .Hero .left-header-content {
-    padding-left: 20px;
-    padding-bottom: 50px;
+    padding: 0;
+    flex: 0;
+    margin-bottom: 100px;
   }
   .Hero .left-header-content .header-text {
     font-size: 60px;
@@ -224,31 +228,21 @@
   .Hero .moto {
     display: none;
   }
+  .Hero .right-header-content .the-best-ad {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 25px 0;
+  }
   .Hero .right-header-content .header-button {
     display: none;
   }
   .Hero .right-header-content .heart-rate {
-    padding: 10px 15px;
-    width: 100px;
-    height: 120px;
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  .Hero .right-header-content .heart-rate img {
-    width: 25px;
-  }
-  .Hero .right-header-content .heart-rate div:nth-child(2) {
-    margin-top: 10px;
-    line-height: 1;
-    font-size: 15px;
-  }
-  .Hero .right-header-content .heart-rate span:nth-child(1) {
-    opacity: 0.6;
-    margin-bottom: 10px;
-  }
-  .Hero .right-header-content .heart-rate span:nth-child(2) {
-    font-size: 20px;
+    display: none;
   }
   .Hero .right-header-content .gym-logo img:nth-child(1) {
     display: none;
@@ -257,29 +251,6 @@
     display: none;
   }
   .Hero .right-header-content .calories-content {
-    background: rgb(101, 101, 101);
-    border-radius: 5px;
-    padding: 10px 20px;
-    width: 130px;
-    height: 165px;
-    position: relative;
-    left: 180px;
-    top: -1px;
-  }
-  .Hero .right-header-content .calories-content div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-  }
-  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(1) {
-    opacity: 0.9;
-    text-transform: capitalize;
-  }
-  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) {
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-  }
-  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) .fa-chart-simple {
-    font-size: 60px;
-    color: orange;
+    display: none;
   }
 }/*# sourceMappingURL=Hero.css.map */

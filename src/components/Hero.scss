@@ -104,6 +104,9 @@ $tertiary-color: rgb(255, 255, 255);
     background: $secondary-color;
     position: relative;
     flex: 1;
+    .the-best-ad {
+      display: none;
+    }
     .header-button {
       padding: 15px 20px;
       background: $tertiary-color;
@@ -200,8 +203,9 @@ $tertiary-color: rgb(255, 255, 255);
     flex-direction: column;
 
     .left-header-content {
-      padding-left: 20px;
-      padding-bottom: 50px;
+      padding: 0;
+      flex: 0;
+      margin-bottom: 100px;
 
       .header-text {
         font-size: 60px;
@@ -244,31 +248,21 @@ $tertiary-color: rgb(255, 255, 255);
     }
 
     .right-header-content {
+      .the-best-ad {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        padding: 25px 0;
+      }
       .header-button {
         display: none;
       }
       .heart-rate {
-        padding: 10px 15px;
-        width: 100px;
-        height: 120px;
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        img {
-          width: 25px;
-        }
-        div:nth-child(2) {
-          margin-top: 10px;
-          line-height: 1;
-          font-size: 15px;
-        }
-        span:nth-child(1) {
-          opacity: 0.6;
-          margin-bottom: 10px;
-        }
-        span:nth-child(2) {
-          font-size: 20px;
-        }
+        display: none;
       }
       .gym-logo {
         img:nth-child(1) {
@@ -279,33 +273,7 @@ $tertiary-color: rgb(255, 255, 255);
         }
       }
       .calories-content {
-        background: $primary-color-light;
-        border-radius: 5px;
-        padding: 10px 20px;
-        width: 130px;
-        height: 165px;
-
-        position: relative;
-        left: 180px;
-        top: -1px;
-        div:nth-child(1) {
-          display: flex;
-          flex-direction: column;
-
-          span:nth-child(1) {
-            opacity: 0.9;
-            text-transform: capitalize;
-          }
-          span:nth-child(2) {
-            color: $tertiary-color;
-            font-size: 15px;
-
-            .fa-chart-simple {
-              font-size: 60px;
-              color: orange;
-            }
-          }
-        }
+        display: none;
       }
     }
   }

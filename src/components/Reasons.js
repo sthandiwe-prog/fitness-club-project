@@ -21,7 +21,7 @@ export default function Reasons() {
       </div>
       <div className="right-r">
         <div className="details">
-          <span className="heading">some resons</span>
+          <span className="heading">some reasons</span>
           <div>
             <span className="stroke-text">why</span> <span> choose us?</span>
           </div>

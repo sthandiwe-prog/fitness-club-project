@@ -23,4 +23,52 @@
   padding: 25px 0;
   width: 180px;
   height: auto;
+}
+.Navigation .fa-bars {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+@media (max-width: 800px) {
+  .Navigation {
+    margin-bottom: 100px;
+  }
+  .Navigation .fa-bars {
+    display: flex;
+  }
+  .Navigation .fa-bars:hover {
+    color: rgb(255, 167, 2);
+    cursor: pointer;
+  }
+  .Navigation .logo {
+    width: 150px;
+    position: absolute;
+    top: -10px;
+    padding-left: 30px;
+  }
+  .Navigation ul {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    gap: 15px;
+    width: 100%;
+    display: none;
+    margin-top: 70px;
+  }
+  .Navigation ul li {
+    text-align: center;
+    padding: 9px 0;
+  }
+  .Navigation ul li:hover {
+    background: rgba(211, 211, 211, 0.445);
+  }
+  .Navigation ul li a:hover {
+    color: white;
+  }
+  .Navigation ul.show {
+    display: flex;
+  }
 }/*# sourceMappingURL=Navigation.css.map */
