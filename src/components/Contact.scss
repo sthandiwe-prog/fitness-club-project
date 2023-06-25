@@ -53,3 +53,21 @@ $tertiary-color: rgb(255, 255, 255);
     }
   }
 }
+
+@media (max-width: 800px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    .right-c {
+      form {
+        margin-top: 40px;
+        padding: 10px 30px;
+      }
+
+      button {
+        padding: 4px;
+        font-size: 13px;
+      }
+    }
+  }
+}

@@ -1,5 +1,4 @@
 .Testimonials {
-  background: rgb(77, 79, 84);
   color: white;
   padding: 70px 37px;
   display: flex;
@@ -90,4 +89,39 @@
 .Testimonials .right-t .arrows span:nth-child(4):hover {
   cursor: pointer;
   color: rgb(255, 167, 2);
+}
+
+@media (max-width: 800px) {
+  .Testimonials {
+    margin-bottom: 290px;
+    padding: 70px 37px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Testimonials .left-t {
+    display: flex;
+  }
+  .Testimonials .left-t .testimonials-content {
+    line-height: 1.5;
+  }
+  .Testimonials .right-t {
+    display: flex;
+    flex-direction: column;
+  }
+  .Testimonials .right-t img {
+    margin: 0 20px;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  .Testimonials .right-t .arrows {
+    position: absolute;
+    bottom: -320px;
+  }
+  .Testimonials .right-t .arrows div:nth-child(1) {
+    display: none;
+  }
+  .Testimonials .right-t .arrows div:nth-child(2) {
+    display: none;
+  }
 }/*# sourceMappingURL=Testimonials.css.map */

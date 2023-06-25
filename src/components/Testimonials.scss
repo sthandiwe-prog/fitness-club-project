@@ -5,7 +5,6 @@ $secondary-color: rgb(255, 167, 2);
 $tertiary-color: rgb(255, 255, 255);
 
 .Testimonials {
-  background: $primary-color;
   color: white;
   padding: 70px 37px;
   display: flex;
@@ -95,6 +94,44 @@ $tertiary-color: rgb(255, 255, 255);
       span:nth-child(4):hover {
         cursor: pointer;
         color: $secondary-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Testimonials {
+    margin-bottom: 290px;
+    padding: 70px 37px;
+    display: flex;
+    flex-direction: column;
+    .left-t {
+      display: flex;
+
+      .testimonials-content {
+        line-height: 1.5;
+      }
+    }
+    .right-t {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        margin: 0 20px;
+        position: absolute;
+        width: 200px;
+        height: 200px;
+      }
+      .arrows {
+        position: absolute;
+        bottom: -320px;
+
+        div:nth-child(1) {
+          display: none;
+        }
+        div:nth-child(2) {
+          display: none;
+        }
       }
     }
   }

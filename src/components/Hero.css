@@ -78,7 +78,6 @@
   text-transform: uppercase;
   position: relative;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
 .Hero .moto div {
@@ -183,4 +182,104 @@
 .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) .fa-chart-simple {
   font-size: 70px;
   color: orange;
+}
+
+@media (max-width: 800px) {
+  .Hero {
+    flex-direction: column;
+  }
+  .Hero .left-header-content {
+    padding-left: 20px;
+    padding-bottom: 50px;
+  }
+  .Hero .left-header-content .header-text {
+    font-size: 60px;
+    text-align: center;
+  }
+  .Hero .left-header-content .header-text div:nth-child(3) {
+    text-align: center;
+  }
+  .Hero .left-header-content .figures {
+    justify-content: center;
+  }
+  .Hero .left-header-content .figures div span:nth-child(1) {
+    font-size: 27px;
+  }
+  .Hero .left-header-content .figures div span:nth-child(2) {
+    font-size: 12px;
+  }
+  .Hero .left-header-content .header-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  .Hero .left-header-content .header-buttons button:nth-child(1) {
+    padding: 8px 20px;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  .Hero .left-header-content .header-buttons button:nth-child(2) {
+    padding: 8px 20px;
+    font-size: 14px;
+  }
+  .Hero .moto {
+    display: none;
+  }
+  .Hero .right-header-content .header-button {
+    display: none;
+  }
+  .Hero .right-header-content .heart-rate {
+    padding: 10px 15px;
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  .Hero .right-header-content .heart-rate img {
+    width: 25px;
+  }
+  .Hero .right-header-content .heart-rate div:nth-child(2) {
+    margin-top: 10px;
+    line-height: 1;
+    font-size: 15px;
+  }
+  .Hero .right-header-content .heart-rate span:nth-child(1) {
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+  .Hero .right-header-content .heart-rate span:nth-child(2) {
+    font-size: 20px;
+  }
+  .Hero .right-header-content .gym-logo img:nth-child(1) {
+    display: none;
+  }
+  .Hero .right-header-content .gym-logo img:nth-child(2) {
+    display: none;
+  }
+  .Hero .right-header-content .calories-content {
+    background: rgb(101, 101, 101);
+    border-radius: 5px;
+    padding: 10px 20px;
+    width: 130px;
+    height: 165px;
+    position: relative;
+    left: 180px;
+    top: -1px;
+  }
+  .Hero .right-header-content .calories-content div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+  }
+  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(1) {
+    opacity: 0.9;
+    text-transform: capitalize;
+  }
+  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+  }
+  .Hero .right-header-content .calories-content div:nth-child(1) span:nth-child(2) .fa-chart-simple {
+    font-size: 60px;
+    color: orange;
+  }
 }/*# sourceMappingURL=Hero.css.map */

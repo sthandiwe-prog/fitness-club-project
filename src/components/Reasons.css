@@ -82,4 +82,32 @@
 .Reasons .details div:nth-child(5) {
   display: flex;
   gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .Reasons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .Reasons .image1 {
+    width: 120px;
+    height: 300px;
+  }
+  .Reasons .image2 {
+    width: auto;
+    height: 100px;
+  }
+  .Reasons .image3 {
+    width: 100px;
+  }
+  .Reasons .image4 {
+    width: 80px;
+    height: 80px;
+  }
+  .Reasons .details .tick {
+    width: 20px;
+    height: 20px;
+    margin-top: 8px;
+  }
 }/*# sourceMappingURL=Reasons.css.map */

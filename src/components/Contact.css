@@ -48,4 +48,19 @@
   font-weight: bold;
   color: rgb(255, 255, 255);
   background: rgb(255, 167, 2);
+}
+
+@media (max-width: 800px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contact .right-c form {
+    margin-top: 40px;
+    padding: 10px 30px;
+  }
+  .Contact .right-c button {
+    padding: 4px;
+    font-size: 13px;
+  }
 }/*# sourceMappingURL=Contact.css.map */

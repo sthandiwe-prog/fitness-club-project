@@ -83,7 +83,7 @@ $tertiary-color: rgb(255, 255, 255);
     text-transform: uppercase;
     position: relative;
     display: flex;
-    justify-content: flex-start;
+
     align-items: center;
     div {
       background: $secondary-color;
@@ -188,6 +188,122 @@ $tertiary-color: rgb(255, 255, 255);
           .fa-chart-simple {
             font-size: 70px;
             color: orange;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .Hero {
+    flex-direction: column;
+
+    .left-header-content {
+      padding-left: 20px;
+      padding-bottom: 50px;
+
+      .header-text {
+        font-size: 60px;
+        text-align: center;
+
+        div:nth-child(3) {
+          text-align: center;
+        }
+      }
+
+      .figures {
+        justify-content: center;
+
+        div {
+          span:nth-child(1) {
+            font-size: 27px;
+          }
+          span:nth-child(2) {
+            font-size: 12px;
+          }
+        }
+      }
+      .header-buttons {
+        display: flex;
+        justify-content: center;
+
+        button:nth-child(1) {
+          padding: 8px 20px;
+          margin-right: 20px;
+          font-size: 14px;
+        }
+        button:nth-child(2) {
+          padding: 8px 20px;
+          font-size: 14px;
+        }
+      }
+    }
+    .moto {
+      display: none;
+    }
+
+    .right-header-content {
+      .header-button {
+        display: none;
+      }
+      .heart-rate {
+        padding: 10px 15px;
+        width: 100px;
+        height: 120px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        img {
+          width: 25px;
+        }
+        div:nth-child(2) {
+          margin-top: 10px;
+          line-height: 1;
+          font-size: 15px;
+        }
+        span:nth-child(1) {
+          opacity: 0.6;
+          margin-bottom: 10px;
+        }
+        span:nth-child(2) {
+          font-size: 20px;
+        }
+      }
+      .gym-logo {
+        img:nth-child(1) {
+          display: none;
+        }
+        img:nth-child(2) {
+          display: none;
+        }
+      }
+      .calories-content {
+        background: $primary-color-light;
+        border-radius: 5px;
+        padding: 10px 20px;
+        width: 130px;
+        height: 165px;
+
+        position: relative;
+        left: 180px;
+        top: -1px;
+        div:nth-child(1) {
+          display: flex;
+          flex-direction: column;
+
+          span:nth-child(1) {
+            opacity: 0.9;
+            text-transform: capitalize;
+          }
+          span:nth-child(2) {
+            color: $tertiary-color;
+            font-size: 15px;
+
+            .fa-chart-simple {
+              font-size: 60px;
+              color: orange;
+            }
           }
         }
       }

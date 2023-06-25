@@ -57,4 +57,22 @@
 .Plans .plans-details .btn:hover {
   cursor: pointer;
   color: black;
+}
+
+@media (max-width: 800px) {
+  .Plans .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 40px;
+  }
+  .Plans .plans-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .Plans .plans-details .plans-content {
+    line-height: 1.5;
+    margin: 20px 50px;
+    padding: 40px 50px 20px 30px;
+  }
 }/*# sourceMappingURL=Plans.css.map */

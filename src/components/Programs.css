@@ -47,4 +47,16 @@
 .Programs .programs-content .join-now .arrow {
   width: 20px;
   margin-top: 4px;
+}
+
+@media (max-width: 800px) {
+  .Programs .programs-headings {
+    flex-direction: column;
+  }
+  .Programs .programs-content {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
 }/*# sourceMappingURL=Programs.css.map */
